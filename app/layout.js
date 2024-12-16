@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
     <ClerkProvider>
       <html lang="en">
         <body
-          className={`h-screen bg-blue-950 text-white ${geistSans.variable} ${geistMono.variable} antialiased`}>
+          className={`h-svh bg-blue-950 text-white ${geistSans.variable} ${geistMono.variable} antialiased`}>
           <main className="h-full w-full flex flex-col justify-center items-center">
             {children}
           </main>
